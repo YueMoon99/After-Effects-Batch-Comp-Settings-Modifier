@@ -1,5 +1,6 @@
 # AE 合成设置批量修改工具 / AE Batch Comp Settings Modifier.
 ## Scroll down for English introduction.
+<img width="320" height="388" alt="QQ20251121-160210" src="https://github.com/user-attachments/assets/e657166e-0bdf-41bb-8f19-f1112457b565" /><br>
 一款轻量开源的 After Effects 脚本，可批量修改合成属性（时长、帧率、尺寸），支持嵌套子合成同步处理。
 ## 🌟 功能特性
 批量修改所选合成、图层及所有嵌套子合成的时长（无限层级）<br>
@@ -56,6 +57,7 @@ Bug反馈或更多脚本制作建议：我的博客与我联系<br><br><br>
 
 # AE Batch Comp Settings Modifier
 A lightweight and open-source After Effects script that enables batch modification of composition properties (duration, frame rate, resolution) with support for synchronous processing of nested sub-compositions.
+<img width="289" height="374" alt="QQ20251121-160154" src="https://github.com/user-attachments/assets/45ee4490-0744-4e88-af0d-68e84c07c71b" /><br>
 
 ## 🌟 Features
 Batch modify the duration of selected comps, layers, and all nested sub-compositions (unlimited depth)<br>
