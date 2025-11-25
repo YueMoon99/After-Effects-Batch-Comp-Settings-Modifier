@@ -3,6 +3,7 @@
 <img width="316" height="585" alt="Screenshot 2025-11-25 114902" src="https://github.com/user-attachments/assets/375b5e1e-f536-4edd-b158-9dbd4e8eea16" />
 <br>
 一款轻量开源的 After Effects 脚本，可批量修改合成属性（时长、帧率、尺寸），支持嵌套子合成同步处理。<br><br>
+
 ## 🌟 功能特性
 批量修改所选合成、图层及所有嵌套子合成的时长（无限层级）<br>
 批量调整多个合成的帧率<br>
