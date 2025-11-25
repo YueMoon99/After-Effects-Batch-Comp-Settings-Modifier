@@ -2,7 +2,7 @@
 ## *Scroll down for English introduction.*
 <img width="316" height="585" alt="Screenshot 2025-11-25 114902" src="https://github.com/user-attachments/assets/375b5e1e-f536-4edd-b158-9dbd4e8eea16" />
 <br>
-一款轻量开源的 After Effects 脚本，可批量修改合成属性（时长、帧率、尺寸），支持嵌套子合成同步处理。
+一款轻量开源的 After Effects 脚本，可批量修改合成属性（时长、帧率、尺寸），支持嵌套子合成同步处理。<br><br>
 ## 🌟 功能特性
 批量修改所选合成、图层及所有嵌套子合成的时长（无限层级）<br>
 批量调整多个合成的帧率<br>
@@ -10,7 +10,7 @@
 支持撤销（每个操作生成独立撤销组）<br>
 兼容 AE 旧版本（无 ES6 语法依赖）<br>
 简洁 UI，输入提示清晰<br>
-开源免费，支持商业 / 个人使用（禁止转售）<br>
+开源免费，支持商业 / 个人使用（禁止转售）<br><br>
 
 ## 📥 安装步骤
 下载脚本（文件名后缀zh是中文版，en是英文版）<br>
@@ -18,7 +18,7 @@
 Windows: X:\Program Files\Adobe\Adobe After Effects [版本号]\Support Files\Scripts\ScriptUI Panels\ <br>
 Mac: 应用程序/Adobe After Effects [版本号]/Scripts/ScriptUI Panels/<br>
 重启 After Effects<br>
-在 AE 中打开：窗口 > CompSettingTool v2.1.jsx<br>
+在 AE 中打开：窗口 > CompSettingTool v2.1.jsx<br><br>
 
 ## 🚀 使用说明
 ### 1. 修改时长
