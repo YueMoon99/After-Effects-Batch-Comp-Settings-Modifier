@@ -72,11 +72,11 @@ Open-source and free for commercial/personal use (resale prohibited)<br>
 
 ## 📥 Installation Steps
 Download the script (file name suffix 'zh' for the Chinese version, 'en' for the English version)<br>
-Copy CompSettingTool v2.0.jsx to your AE Scripts folder:<br>
+Copy CompSettingTool v2.1.jsx to your AE Scripts folder:<br>
 Windows: X:\Program Files\Adobe\Adobe After Effects [Version]\Support Files\Scripts\ScriptUI Panels\ <br>
 Mac: Applications/Adobe After Effects [Version]/Scripts/ScriptUI Panels/<br>
 Restart After Effects<br>
-Open in AE: Window > CompSettingTool v2.0.jsx<br>
+Open in AE: Window > CompSettingTool v2.1.jsx<br>
 
 ## 🚀 Usage Instructions
 ### 1. Modify Duration
