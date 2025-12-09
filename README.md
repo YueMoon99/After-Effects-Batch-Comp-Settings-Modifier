@@ -48,7 +48,7 @@ AE 版本兼容：已在 Adobe After Effects 2020 - 2025 版本中测试兼容�
 ## 👨‍💻 作者信息
 博客：yuemoon.vip<br>
 GitHub：@YueMoon99<br>
-B站：UID223633562
+B站：UID223633562<br>
 Bug反馈或更多脚本制作建议：我的博客与我联系<br><br><br>
 
 
@@ -104,4 +104,5 @@ This project is open-source under the MIT License with an additional restriction
 ## 👨‍💻 Author Information
 Blog: yuemoon.vip<br>
 GitHub: @YueMoon99<br>
-Bug Reports or Script Feature Requests: Contact me via my blog.<br>
+Contact me if BUG Occured.<br>
+Good Luck Building your World!!
