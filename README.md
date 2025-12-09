@@ -16,7 +16,7 @@
 ## 📥 安装步骤
 下载脚本（文件名后缀zh是中文版，en是英文版）<br>
 将 CompSettingTool v2.1.jsx 复制到 AE 脚本文件夹：<br>
-Windows: X:\Program Files\Adobe\Adobe After Effects [版本号]\Support Files\Scripts\ScriptUI Panels\ <br>
+Windows: ..\Adobe After Effects [版本号]\Support Files\Scripts\ScriptUI Panels\ <br>
 Mac: 应用程序/Adobe After Effects [版本号]/Scripts/ScriptUI Panels/<br>
 重启 After Effects<br>
 在 AE 中打开：窗口 > CompSettingTool v2.1.jsx<br><br>
@@ -74,7 +74,7 @@ Open-source and free for commercial/personal use (resale prohibited)<br>
 ## 📥 Installation Steps
 Download the script (file name suffix 'zh' for the Chinese version, 'en' for the English version)<br>
 Copy CompSettingTool v2.1.jsx to your AE Scripts folder:<br>
-Windows: X:\Program Files\Adobe\Adobe After Effects [Version]\Support Files\Scripts\ScriptUI Panels\ <br>
+Windows: ..\Adobe After Effects [Version]\Support Files\Scripts\ScriptUI Panels\ <br>
 Mac: Applications/Adobe After Effects [Version]/Scripts/ScriptUI Panels/<br>
 Restart After Effects<br>
 Open in AE: Window > CompSettingTool v2.1.jsx<br>
