@@ -1,7 +1,7 @@
 [中文](README.md) | [English](README_EN.md)
 
 # AE 合成设置批量修改工具
-<img width="316" height="585" alt="Screenshot 2025-11-25 114902" src="https://github.com/user-attachments/assets/375b5e1e-f536-4edd-b158-9dbd4e8eea16" />
+<img width="332" height="623" alt="屏幕截图 2026-01-27 155201" src="https://github.com/user-attachments/assets/3cbbf1e2-fd13-4e54-84fd-5620f4e04738" />
 <br>
 一款轻量开源的 After Effects 脚本，可批量修改合成属性（时长、帧率、尺寸），支持嵌套子合成同步处理。<br><br>
 
