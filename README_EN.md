@@ -1,7 +1,7 @@
 [中文](README.md) | [English](README_EN.md)
 
 # AE Batch Comp Settings Modifier
-<img width="308" height="585" alt="Screenshot 2025-11-25 114906" src="https://github.com/user-attachments/assets/715bee82-800b-4810-ae8c-01e9c8e673b3" />
+<img width="332" height="623" alt="屏幕截图 2026-01-27 155204" src="https://github.com/user-attachments/assets/f920181d-98d8-4276-9d7e-8c6d6e54c048" />
 <br>
 A lightweight and open-source After Effects script that enables batch modification of composition properties (duration, frame rate, resolution) with support for synchronous processing of nested sub-compositions.
 
