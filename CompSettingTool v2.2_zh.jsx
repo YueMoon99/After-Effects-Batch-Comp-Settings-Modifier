@@ -1,7 +1,6 @@
-﻿(function(thisObj) { 
+(function(thisObj) { 
     var isDockablePanel = (thisObj instanceof Panel);
     var mainWindow;
-
     if (isDockablePanel) {
         mainWindow = thisObj;
         mainWindow.text = "批量合成设置 v2.2 | 舟午YueMoon |";
@@ -13,20 +12,17 @@
     mainWindow.alignChildren = "left";
     mainWindow.spacing = 10;
     mainWindow.margins = 15;
-    var panelWidth = 300; 
-    var buttonWidth = 260; 
+    var panelWidth = 280; 
+    var buttonWidth = panelWidth - 30;
     var blogText = mainWindow.add("statictext", undefined, "博客：yuemoon.vip   Bilibili：UID223633562");
-    blogText.size = [panelWidth, 15];
+    blogText.size = [buttonWidth, 15];
 
     // --- 1. 时长设置面板 ---
     var durationGroup = mainWindow.add("panel", undefined, "时长修改（项目面板中选中的合成）");
     durationGroup.orientation = "column";
     durationGroup.alignChildren = ["left", "center"];
-    durationGroup.preferredSize.width = panelWidth;
-    durationGroup.maximumSize.width = panelWidth; 
     var durationInput = durationGroup.add("edittext", undefined, "0:00:00:00");
     durationInput.size = [buttonWidth, 25];
-    durationInput.helpTip = "格式: 时:分:秒:帧 (例如 0:00:05:00)";
     var radio1 = durationGroup.add("radiobutton", undefined, "1、强制修改所有图层 + 子合成穿透");
     var radio2 = durationGroup.add("radiobutton", undefined, "2、仅修改末尾帧存在的图层 + 穿透");
     var radio3 = durationGroup.add("radiobutton", undefined, "3、仅修改选中合成时长 (不改内容)");
@@ -35,13 +31,12 @@
     durationButton.size = [buttonWidth, 25];
     durationGroup.preferredSize.width = panelWidth;
     durationGroup.maximumSize.width = panelWidth; 
+    durationGroup.margins = 10;
 
     // --- 2. 帧率设置面板 ---
     var frameRateGroup = mainWindow.add("panel", undefined, "合成帧率（项目面板中选中的合成）");
     frameRateGroup.orientation = "column";
     frameRateGroup.alignChildren = ["left", "center"];
-    frameRateGroup.preferredSize.width = panelWidth;
-    frameRateGroup.maximumSize.width = panelWidth; 
     var frameRateInput = frameRateGroup.add("edittext", undefined, "25");
     frameRateInput.size = [buttonWidth, 25];
     var frameRatePenetrate = frameRateGroup.add("checkbox", undefined, "子合成穿透");
@@ -49,21 +44,20 @@
     frameRateButton.size = [buttonWidth, 25];
     frameRateGroup.preferredSize.width = panelWidth;
     frameRateGroup.maximumSize.width = panelWidth; 
+    frameRateGroup.margins = 10;
 
     // --- 3. 尺寸设置面板 ---
     var compSizeGroup = mainWindow.add("panel", undefined, "合成尺寸（项目面板中选中的合成）");
     compSizeGroup.orientation = "column";
     compSizeGroup.alignChildren = ["left", "center"];
-    compSizeGroup.preferredSize.width = panelWidth;
-    compSizeGroup.maximumSize.width = panelWidth; 
     var compSizeInput = compSizeGroup.add("edittext", undefined, "1920 * 1080");
     compSizeInput.size = [buttonWidth, 25];
-    compSizeInput.helpTip = "格式: 宽 * 高";
     var compSizePenetrate = compSizeGroup.add("checkbox", undefined, "子合成穿透");
     var compSizeButton = compSizeGroup.add("button", undefined, "应用尺寸修改");
     compSizeButton.size = [buttonWidth, 25];
     compSizeGroup.preferredSize.width = panelWidth;
     compSizeGroup.maximumSize.width = panelWidth; 
+    compSizeGroup.margins = 10;
     
     // --- 4. 页脚 ---
     mainWindow.add("statictext", undefined, "——————————————————————");
