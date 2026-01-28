@@ -1,4 +1,4 @@
-﻿(function(thisObj) { 
+(function(thisObj) { 
     var isDockablePanel = (thisObj instanceof Panel);
     var mainWindow;
     if (isDockablePanel) {
@@ -12,10 +12,10 @@
     mainWindow.alignChildren = "left";
     mainWindow.spacing = 10;
     mainWindow.margins = 15;
-    var panelWidth = 300; 
+    var panelWidth = 280; 
     var buttonWidth = panelWidth - 30;
     var blogText = mainWindow.add("statictext", undefined, "Blog：yuemoon.vip   Bilibili：UID223633562");
-    blogText.size = [350, 15];
+    blogText.size = [buttonWidth, 15];
 
     // --- 1. durationGroup ---
     var durationGroup = mainWindow.add("panel", undefined, "Duration");
@@ -31,6 +31,8 @@
     durationButton.size = [buttonWidth, 25];
     durationGroup.preferredSize.width = panelWidth;
     durationGroup.maximumSize.width = panelWidth; 
+    durationGroup.margins = 10;
+
 
     // --- 2. frameRateGroup ---
     var frameRateGroup = mainWindow.add("panel", undefined, "frameRate");
@@ -43,6 +45,8 @@
     frameRateButton.size = [buttonWidth, 25];
     frameRateGroup.preferredSize.width = panelWidth;
     frameRateGroup.maximumSize.width = panelWidth; 
+    frameRateGroup.margins = 10;
+
 
     // --- 3. Comp Size Section ---
     var compSizeGroup = mainWindow.add("panel", undefined, "CompSize");
@@ -55,6 +59,8 @@
     compSizeButton.size = [buttonWidth, 25];
     compSizeGroup.preferredSize.width = panelWidth;
     compSizeGroup.maximumSize.width = panelWidth; 
+    compSizeGroup.margins = 10;
+
 
     // --- 4. Footer ---
     mainWindow.add("statictext", undefined, "——————————————————————");
